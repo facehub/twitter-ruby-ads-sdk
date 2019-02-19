@@ -128,6 +128,19 @@ module TwitterAds
       INTERSTITIAL_LANDSCAPE_TABLET = 'INTERSTITIAL_LANDSCAPE_TABLET'.freeze
     end
 
+    module MediaCategory
+      AMPLIFY_VIDEO = 'AMPLIFY_VIDEO'.freeze
+      TWEET_GIF     = 'TWEET_GIF'.freeze
+      TWEET_IMAGE   = 'TWEET_IMAGE'.freeze
+      TWEET_VIDEO   = 'TWEET_VIDEO'.freeze
+    end
+
+    module MediaType
+      GIF   = 'GIF'.freeze
+      IMAGE = 'IMAGE'.freeze
+      VIDEO = 'VIDEO'.freeze
+    end
+
     module Optimizations
       DEFAULT             = 'DEFAULT'.freeze
       WEBSITE_CONVERSIONS = 'WEBSITE_CONVERSIONS'.freeze
@@ -211,5 +224,20 @@ module TwitterAds
       ORGANIC = 'ORGANIC'
     end
 
+    module ConversationType
+      EVENT = 'EVENT'.freeze
+      HANDLE = 'HANDLE'.freeze
+      HASHTAG = 'HASHTAG'.freeze
+    end
+
+    module AudienceDefinition
+      TARGETING_CRITERIA = 'TARGETING_CRITERIA'.freeze
+      KEYWORD_AUDIENCE = 'KEYWORD_AUDIENCE'.freeze
+    end
+
+    module LookalikeExpansion
+      DEFINED = 'DEFINED'.freeze
+      EXPANDED = 'EXPANDED'.freeze
+    end
   end
 end
